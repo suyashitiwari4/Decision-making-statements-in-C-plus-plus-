@@ -2,42 +2,70 @@
 //24070123115
 #include<iostream>
 using namespace std;
-int main(){
-    cout<<"1.ADDITION"<<endl<<"2.SUBTRACTION"<<endl<<"3.MULTIPLICATION"<<endl<<"4.DIVISION"<<endl;
-    int choice;
-    cout<<"enter the choice:"<<endl;
-    cin>>choice;
-    int a = 34;
-    int b =45;
 
-    
+int main(){
+    cout << "1. ADDITION" << endl
+         << "2. SUBTRACTION" << endl
+         << "3. MULTIPLICATION" << endl
+         << "4. DIVISION" << endl;
+
+    int choice;
+    cout << "Enter the choice: ";
+    cin >> choice;
+
+    int a, b;
+
     switch(choice){
         case 1:
-        cout<<a+b<<endl;
-        break;
+            cout << "Enter the value of a: ";
+            cin >> a;
+            cout << "Enter the value of b: ";
+            cin >> b;
+            cout << "a + b = " << a + b << endl;
+            break;
+
         case 2:
-        cout<<a-b<<endl;
-        break;
+            cout << "Enter the value of a: ";
+            cin >> a;
+            cout << "Enter the value of b: ";
+            cin >> b;
+            cout << "a - b = " << a - b << endl;
+            break;
+
         case 3:
-        cout<<a*b<<endl;
-        break;
+            cout << "Enter the value of a: ";
+            cin >> a;
+            cout << "Enter the value of b: ";
+            cin >> b;
+            cout << "a * b = " << a * b << endl;
+            break;
+
         case 4:
-        cout<<a/b<<endl;
-        break;
+            cout << "Enter the value of a: ";
+            cin >> a;
+            cout << "Enter the value of b: ";
+            cin >> b;
+            if(b != 0)
+                cout << "a / b = " << (float)a / b << endl;
+            else
+                cout << "Error: Division by zero is not allowed." << endl;
+            break;
+
         default:
-        cout<<"invalid choice:";
-        break;
-        }
-        return 0;
+            cout << "Invalid choice." << endl;
+            break;
+    }
+
+    return 0;
 }
 //OUTPUT:
-1.ADDITION
-2.SUBTRACTION
-3.MULTIPLICATION
-4.DIVISION
-enter the choice:
-3
-1530
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+Enter the choice: 4
+Enter the value of a: 6
+Enter the value of b: 4
+a / b = 1.5
 
-
-=== Code Execution Successful ===
+      
