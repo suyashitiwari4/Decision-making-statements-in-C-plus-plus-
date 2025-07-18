@@ -1,0 +1,43 @@
+//Suyashi Tiwari 
+//24070123115 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2, num3;
+    cout << "Enter the value of num1:" << endl;
+    cin >> num1;
+    cout << "Enter the value of num2:" << endl;
+    cin >> num2;
+    cout << "Enter the value of num3:" << endl;
+    cin >> num3;
+
+    if (num1 > num2) {
+        if (num1 > num3) {
+            cout << "The highest number is: " << num1 << endl;
+        } else {
+            cout << "The highest number is: " << num3 << endl;
+        }
+    } else { 
+        if (num2 > num3) {
+            cout << "The highest number is: " << num2 << endl;
+        } else {
+            cout << "The highest number is: " << num3 << endl;
+        }
+    }
+
+    return 0;
+}
+
+//OUTPUT:
+Enter the value of num1:
+87
+Enter the value of num2:
+96
+Enter the value of num3:
+67
+The highest number is: 96
+
+
+=== Code Execution Successful ===
