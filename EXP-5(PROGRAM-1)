@@ -1,0 +1,23 @@
+//Suyashi Tiwari
+//24070123115
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter the value of n:"<<endl;
+    cin>>n;
+    if(n%2==0){
+        cout<<"the number is even"<<endl;
+    }
+    else{
+        cout<<"the number is odd"<<endl;
+    }
+    return 0;
+}
+//OUTPUT
+enter the value of n:
+34
+the number is even
+
+
+=== Code Execution Successful ===
