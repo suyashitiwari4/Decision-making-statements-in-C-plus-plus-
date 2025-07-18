@@ -1,0 +1,43 @@
+//Suyashi Tiwari
+//24070123115
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"1.ADDITION"<<endl<<"2.SUBTRACTION"<<endl<<"3.MULTIPLICATION"<<endl<<"4.DIVISION"<<endl;
+    int choice;
+    cout<<"enter the choice:"<<endl;
+    cin>>choice;
+    int a = 34;
+    int b =45;
+
+    
+    switch(choice){
+        case 1:
+        cout<<a+b<<endl;
+        break;
+        case 2:
+        cout<<a-b<<endl;
+        break;
+        case 3:
+        cout<<a*b<<endl;
+        break;
+        case 4:
+        cout<<a/b<<endl;
+        break;
+        default:
+        cout<<"invalid choice:";
+        break;
+        }
+        return 0;
+}
+//OUTPUT:
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+enter the choice:
+3
+1530
+
+
+=== Code Execution Successful ===
