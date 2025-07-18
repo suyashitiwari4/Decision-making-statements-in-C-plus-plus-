@@ -1,0 +1,40 @@
+//Suyashi Tiwari
+//24070123115
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"WELCOME TO OUR RESTAURANT!!"<<endl;
+    cout<<"1.VEG THAALI"<<endl<<"2.NON-VEG THAALI"<<endl<<"3.CHINESE"<<endl;
+    int choice;
+    cout<<"enter the choice:"<<endl;
+    cin>>choice;
+    switch(choice){
+        case 1:
+        cout<<"Panner butter masala"<<endl<<"Garlic Naan"<<endl<<"Salad"<<endl<<"Vanilla ice cream";
+        break;
+        case 2:
+        cout<<"Butter Chicken"<<endl<<"Garlic Naan"<<endl<<"Omlet"<<endl<<"Choclate Ice cream";
+        break;
+        case 3:
+        cout<<"Manchurain rice bowl"<<endl;
+        break;
+        default:
+        cout<<"INVALID CHOICE";
+        break;
+        
+    }
+    return 0;
+}
+//OUTPUT:
+WELCOME TO OUR RESTAURANT!!
+1.VEG THAALI
+2.NON-VEG THAALI
+3.CHINESE
+enter the choice:
+1
+Panner butter masala
+Garlic Naan
+Salad
+Vanilla ice cream
+
+=== Code Execution Successful ===
