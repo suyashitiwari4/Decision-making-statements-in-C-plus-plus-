@@ -166,41 +166,67 @@ STEPS:
 
 5. case 1:
             cout << "You selected VEG THAALI." << endl;
+   
             cout << "Choose your sabji:" << endl;
+   
             cout << "1. Paneer Butter Masala" << endl;
+   
             cout << "2. Veg Korma" << endl;
+   
             cout << "Enter your sub-choice: ";
+   
             cin >> subChoice;
+   
             switch(subChoice) {
+   
                 case 1:
+   
                     cout << "You will get:" << endl;
+   
                     cout << "Paneer Butter Masala, Garlic Naan, Salad, Vanilla Ice Cream" << endl;
                     break;
+   
                 case 2:
+   
                     cout << "You will get:" << endl;
+   
                     cout << "Veg Korma, Butter Roti, Salad, Mango Ice Cream" << endl;
                     break;
+   
                 default:
                     cout << "Invalid sub-choice in VEG THAALI!" << endl;
             }
             break;
 
-6. case 2:
+7. case 2:
             cout << "You selected NON-VEG THAALI." << endl;
+   
             cout << "Choose your non-veg dish:" << endl;
+   
             cout << "1. Butter Chicken" << endl;
+   
             cout << "2. Chicken Curry" << endl;
+   
             cout << "Enter your sub-choice: ";
+   
             cin >> subChoice;
+   
             switch(subChoice) {
                 case 1:
                     cout << "You will get:" << endl;
+   
                     cout << "Butter Chicken, Garlic Naan, Omelette, Chocolate Ice Cream" << endl;
+   
                     break;
+   
                 case 2:
+   
                     cout << "You will get:" << endl;
+   
                     cout << "Chicken Curry, Butter Roti, Boiled Egg, Strawberry Ice Cream" << endl;
+   
                     break;
+   
                 default:
                     cout << "Invalid sub-choice in NON-VEG THAALI!" << endl;
             }
@@ -208,19 +234,30 @@ STEPS:
 
 
    7. case 3:
+      
             cout << "You selected CHINESE." << endl;
+      
             cout << "Choose your Chinese dish:" << endl;
+      
             cout << "1. Manchurian Rice Bowl" << endl;
+      
             cout << "2. Hakka Noodles" << endl;
+      
             cout << "Enter your sub-choice: ";
+      
             cin >> subChoice;
+      
             switch(subChoice) {
                 case 1:
+      
                     cout << "You will get: Manchurian Rice Bowl with Sauce" << endl;
                     break;
+      
                 case 2:
+      
                     cout << "You will get: Hakka Noodles with Spring Roll" << endl;
                     break;
+      
                 default:
                     cout << "Invalid sub-choice in CHINESE!" << endl;
             }
