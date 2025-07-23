@@ -34,7 +34,7 @@ Program 1:
 
 Objective: To determine whether a user-entered number is even or odd.
 
-Steps:
+STEPS:
 
 1.Start
 
@@ -58,7 +58,7 @@ Program 2:
 
 Objective: To determine whether the character entered by the user is a vowel or a consonant.
 
-Steps:
+STEPS:
 
 1.Start
 
@@ -86,7 +86,7 @@ Objective:
 
 To determine and display the largest number among three user-entered integers.
 
-Steps:
+STEPS:
 
 1.Start
 
@@ -112,7 +112,7 @@ Program 4:
 
 Objective: To perform one of four basic arithmetic operations—Addition, Subtraction, Multiplication, or Division—based on user input(Simple Calculator).
 
-Steps:
+STEPS:
 
 1.Start
 
@@ -149,3 +149,86 @@ Default: Display invalid input message
 8.Display the result of the selected operation
 
 9.End
+
+Proagram-5:
+
+Objective:Using switch case to select different dishes from menu.
+
+STEPS:
+
+1.Start
+
+2.Declare variable choice and subchoice.
+
+3.Display the menu 1.VEG THAALI 2.NON-VEG THAALI 3.CHINESE.
+
+4.Enter your main course choice
+
+5. case 1:
+            cout << "You selected VEG THAALI." << endl;
+            cout << "Choose your sabji:" << endl;
+            cout << "1. Paneer Butter Masala" << endl;
+            cout << "2. Veg Korma" << endl;
+            cout << "Enter your sub-choice: ";
+            cin >> subChoice;
+            switch(subChoice) {
+                case 1:
+                    cout << "You will get:" << endl;
+                    cout << "Paneer Butter Masala, Garlic Naan, Salad, Vanilla Ice Cream" << endl;
+                    break;
+                case 2:
+                    cout << "You will get:" << endl;
+                    cout << "Veg Korma, Butter Roti, Salad, Mango Ice Cream" << endl;
+                    break;
+                default:
+                    cout << "Invalid sub-choice in VEG THAALI!" << endl;
+            }
+            break;
+
+6. case 2:
+            cout << "You selected NON-VEG THAALI." << endl;
+            cout << "Choose your non-veg dish:" << endl;
+            cout << "1. Butter Chicken" << endl;
+            cout << "2. Chicken Curry" << endl;
+            cout << "Enter your sub-choice: ";
+            cin >> subChoice;
+            switch(subChoice) {
+                case 1:
+                    cout << "You will get:" << endl;
+                    cout << "Butter Chicken, Garlic Naan, Omelette, Chocolate Ice Cream" << endl;
+                    break;
+                case 2:
+                    cout << "You will get:" << endl;
+                    cout << "Chicken Curry, Butter Roti, Boiled Egg, Strawberry Ice Cream" << endl;
+                    break;
+                default:
+                    cout << "Invalid sub-choice in NON-VEG THAALI!" << endl;
+            }
+            break;
+
+
+   7. case 3:
+            cout << "You selected CHINESE." << endl;
+            cout << "Choose your Chinese dish:" << endl;
+            cout << "1. Manchurian Rice Bowl" << endl;
+            cout << "2. Hakka Noodles" << endl;
+            cout << "Enter your sub-choice: ";
+            cin >> subChoice;
+            switch(subChoice) {
+                case 1:
+                    cout << "You will get: Manchurian Rice Bowl with Sauce" << endl;
+                    break;
+                case 2:
+                    cout << "You will get: Hakka Noodles with Spring Roll" << endl;
+                    break;
+                default:
+                    cout << "Invalid sub-choice in CHINESE!" << endl;
+            }
+            break;
+
+  8. otherwise invalid main choice.
+
+  9.End
+
+
+
