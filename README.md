@@ -1,9 +1,11 @@
-AIM: To study and implement C++ decision making statements
+# AIM: To study and implement C++ decision making statements
 
-SOFTWARE REQUIRED:
+# SOFTWARE REQUIRED:
+
 Visual Studio
 
-THEORY:
+# THEORY:
+
 Decision-making is the process to make a decision about which part of the code should be executed or not based on some condition. Decision-making in C++ involves the usage of conditional statements (also called decision control statements) to execute specific blocks of code primarily based on given situations and their results.
 
 if Statement: In C++, the if statement is the simplest decision-making statement. It allows the execution of a block of code if the given condition is true. The body of the if statement is executed only if the given condition is true.
@@ -16,7 +18,8 @@ Nested if else The nested if else statement contains an 'if' statement inside an
 
 Switch Statement In C++, the switch statement is used when multiple situations need to be evaluated primarily based on the value of a variable or an expression. switch statement acts as an alternative to multiple if statements or if-else ladder and has a cleaner structure and it is easy for handling multiple conditions.
 
-Implementation:
+# Implementation:
+
 Based on the above decision making statements in C++ , Simple programs have been used to help understand how decision making statements work in c++. The programs are:
 
 1.Odd-Even check
@@ -29,7 +32,8 @@ Based on the above decision making statements in C++ , Simple programs have been
 
 5.Making a Restaurant menu system.
 
-ALGORITHM:
+# ALGORITHM:
+
 Program 1:
 
 Objective: To determine whether a user-entered number is even or odd.
@@ -266,6 +270,8 @@ STEPS:
   8. otherwise invalid main choice.
 
   9.End
+# Conclusion:
 
+Hence we have learnt and implemented C++ decison making statements
 
 
